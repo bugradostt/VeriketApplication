@@ -16,7 +16,7 @@ namespace WinForm
         public FrmStart()
         {
             InitializeComponent();
-            tmrTime.Interval = 5000; 
+            tmrTime.Interval = 1000; 
             tmrTime.Start();
 
         }
