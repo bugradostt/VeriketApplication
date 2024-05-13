@@ -81,7 +81,7 @@
             this.Controls.Add(this.lblTitle);
             this.Name = "FrmListLog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmListLog";
+            this.Text = "Log Listesi";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmListLog_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLog)).EndInit();
             this.ResumeLayout(false);
