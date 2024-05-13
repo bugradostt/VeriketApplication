@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WinForm
 {
-    public partial class Form1 : Form
+    public partial class FrmListLog : Form
     {
-        public Form1()
+        public FrmListLog()
         {
             InitializeComponent();
+        }
+
+        private void FrmListLog_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
