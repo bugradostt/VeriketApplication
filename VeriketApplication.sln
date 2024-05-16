@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm", "WinForm\WinForm.csproj", "{E2C001BC-6221-42C1-A43E-C568823015F5}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{5855D660-34FE-4B01-8B4D-9DE50580B223}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{E2C001BC-6221-42C1-A43E-C568823015F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2C001BC-6221-42C1-A43E-C568823015F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2C001BC-6221-42C1-A43E-C568823015F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5855D660-34FE-4B01-8B4D-9DE50580B223}.Debug|Any CPU.ActiveCfg = Debug
+		{5855D660-34FE-4B01-8B4D-9DE50580B223}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
